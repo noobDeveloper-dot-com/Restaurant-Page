@@ -23,51 +23,19 @@
 
 .main_title {
   position: absolute;
-  top: 1em;
-  left: 50%;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  margin-left: 50%;
   transform: translateX(-50%);
-  text-align: center;
-  font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .main_title .nummy {
-  color: #e91644;
+  color: #1CA2EC;
 }
 
-.primary_links {
-  width: clamp(200px, 2vw, 400px);
-  background-color: #e91644;
-  gap: 1em;
-  padding: 0.5em 0.5em;
-  border-radius: 1em 0 0 1em;
-  justify-content: space-between;
-  align-items: center;
+.hamburger_Btn {
+
+  background-color: #F38972;
+  min-width: 50px;
+  min-height: 50px;
 }
 
-.linkIcon__svg {
-  width: 25px;
-}
-
-@media (max-width: 950px) {
-  /* .navbar {
-    min-height: 180px;
-  } */
-
-  .slogans {
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .slogan_one {
-    width: 80%;
-    max-width: 150px;
-  }
-
-  .primary_links {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -3em;
-    border-radius: 1em;
-  }
-}
