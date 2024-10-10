@@ -1,7 +1,7 @@
 // import { useState } from 'react'
+import Home from "../components/Home";
+import Navbar from "../components/Navbar";
 
-import "./App.css";
-import Navbar from "./Navbar";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -10,7 +10,7 @@ function App() {
     <>
       <section className="app">
         <Navbar />
-        <section className="content"></section>
+        <Home/>
       </section>
     </>
   );
