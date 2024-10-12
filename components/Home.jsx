@@ -8,6 +8,10 @@ const Home = ()=>{
         <Moving_SVG/>
         <button>Explore Menu</button>
         </div>
+
+        <div className="section_2">
+            
+        </div>
         </>
     )
 }
